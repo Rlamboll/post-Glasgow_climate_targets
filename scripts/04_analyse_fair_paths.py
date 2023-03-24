@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-version = "v6_quant0.5"
+version = "v7_quant0.5"
 outdir = f"../output/{version}/"
 summarydir = '../output/{}/summaries/'.format(version, "temperatures")
 fairdir = '../output/{}/fair_{}/'.format(version, "temperatures")
